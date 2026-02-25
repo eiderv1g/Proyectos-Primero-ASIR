@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!-- TABLITAS DE CLASE -->
+    <h2>TABLAS</H2>
+    <table border="1">
+        <tr>
+            <td>Rojo</td>
+            <td colspan="2">Verde</td>
+
+        </tr>
+        <tr>
+            <td>Café</td>
+            <td>Marrón</td>
+            <td>Tinto</td>
+        </tr>
+        <tr>
+            <td colspan="3">Naranja</td>
+        </tr>
+        <tr>
+            <td colspan="2">Blanco</td>
+            <td>Negro</td>
+
+        </tr>
+    </table>
+<br>
+    <table border="1">
+        <tr>
+            <th>Paquete 1</th>
+            <th>Paquete 2</th>
+            <th>Paquete 3</th>
+            <th>Paquete 4</th>  
+            <th>Paquete 5</th>
+        </tr>
+
+        <tr>
+            <td>Matemática</td>
+            <td>Ciencias</td>
+            <td>Matemática</td>
+            <td>Sociales</td>
+            <td>Arte</td>
+        </tr>
+
+        <tr>
+            <td>Inglés</td>
+            <td>Comunicación</td>
+            <td>Biología</td>
+            <td>Historia</td>
+            <td>Física</td>
+        </tr>
+
+        <tr>
+            <td>Computación</td>
+            <td>Historia</td>
+            <td>Economía</td>
+            <td>Química</td>
+            <td>Redacción</td>
+        </tr>
+
+        <tr>
+            <tfoot>
+                <td>10$</td>
+                <td>20$</td>
+                <td>30$</td>
+                <td>40$</td>
+                <td>50$</td>
+            </tfoot>
+        </tr>
+
+    </table>
+    <br><br>
+    
+    <!-- FORMULARIO -->
+     <h2>POR FAVOR, RELLENE EL SIGUIENTE FORMULARIO</h2>
+     <form action="" method="post">
+    
+        <!--Nombre y apellidos-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <!--Correo electrónico-->
+        <label for="email">Introduzca su correo electrónico:</label>
+        <input type="email" id="email" name="email" required placeholder="Introduce tu correo electrónico" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"><br><br>
+
+        <!--Contraseña y confirmación-->
+        <label for="password">Introduzca su contraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirme su contraseña:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <!--Teléfono-->
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="123456789" required><br><br>
+
+        <!--Datos de nacimiento-->
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+        <label for="pais">País de residencia:</label>
+        <select id="pais" name="pais" required>
+            <option value="" disabled selected>Selecciona un país</option>
+            <option value="AR">Argentina</option>
+            <option value="BO">Bolivia</option>
+            <option value="BR">Brasil</option>
+            <option value="CL">Chile</option>
+            <option value="CO">Colombia</option>
+            <option value="CR">Costa Rica</option>
+            <option value="CU">Cuba</option>
+            <option value="DO">República Dominicana</option>
+            <option value="EC">Ecuador</option>
+            <option value="ES">España</option>
+            <option value="MX">México</option>
+            <option value="PA">Panamá</option>
+            <option value="PE">Perú</option>
+            <option value="PY">Paraguay</option>
+            <option value="UY">Uruguay</option>
+            <option value="VE">Venezuela</option>
+        </select><br><br>
+
+        <!--Género con selector de opciones-->
+        <label for="genero">Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino" required>
+        <label for="otro">Otro</label>
+        <input type="radio" id="otro" name="genero" value="otro" required>
+        <label for="prefiero_no_decirlo">Prefiero no decirlo</label>
+        <input type="radio" id="prefiero_no_decirlo" name="genero" value="prefiero_no_decirlo" required>
+        <br><br>
+
+        <!--Selector de color-->
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color" value="#000000>"><br><br>
+
+        <!--Rango-->
+        <label for="rango">Nivel de satisfacción:</label>
+        <input type="range" id="rango" name="rango" min="0" max="10" step="1" value="5"><br><br>        
+
+        <!--Aceptar términos-->
+        <label for="aceptar">Aceptar términos y condiciones</label>
+        <input type="checkbox" id="aceptar" name="aceptar" required><br><br>
+
+        <!--Subir foto (file)--> 
+        <label for="fotoPerfil"> Sube tu foto de perfil:</label>
+        <input tpe="file" id="fotoPerfil" name="fotoPerfil" accept="image/*"><br><br> 
+
+        <!--Final del formulario-->
+        <input type="reset" value="Restablecer">
+        <input type="submit" value="Enviar">
+
+      
+</body>
+
+</html>

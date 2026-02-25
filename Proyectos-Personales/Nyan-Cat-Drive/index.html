@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nyan Cat 🚀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Audios -->
+  <audio id="sonido" src="audio/arranco.mp3"></audio>
+  <audio id="stop" src="audio/parar.wav"></audio>
+  <audio id="pri" src="audio/primera.wav"></audio>
+  <audio id="seg" src="audio/segunda.wav"></audio>
+  <audio id="ter" src="audio/tercera.wav"></audio>
+  <audio id="cua" src="audio/cuarta.wav"></audio>
+  <audio id="atr" src="audio/atras.wav"></audio>
+
+  <!-- Propiedades -->
+  <div id="propiedades">
+    <p>Marca: <span id="marca"></span></p>
+    <p>Modelo: <span id="modelo"></span></p>
+    <p>Piloto actual: <span id="piloto"></span></p>
+  </div>
+
+  <!-- Botones -->
+  <div id="botones">
+    <button id="arrancar">Arranca</button>
+    <button id="parar">Para</button>
+    <button id="primera">1ª</button>
+    <button id="segunda">2ª</button>
+    <button id="tercera">3ª</button>
+    <button id="cuarta">4ª</button>
+    <button id="atras">Atrás</button>
+  </div>
+
+  <!-- Nyan Cat -->
+  <img id="nyancat" src="media/nyancat.gif" alt="Nyan Cat">
+
+  <!-- Cambiar piloto -->
+  <div id="cambiarpiloto">
+    <input type="text" id="nombre" placeholder="Nuevo piloto">
+    <br>
+    <button id="cpiloto">Cambiar piloto</button>
+  </div>
+
+  <script src="function.js"></script>
+</body>
+</html>

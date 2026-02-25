@@ -1,0 +1,98 @@
+/* Importando una fuente personalizada de Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+      background:linear-gradient(to bottom right, #1c458e, #37e1ff);
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  /*NO TOCAR*/
+}
+
+
+.card {
+        background: linear-gradient(90deg, #e100d6, #b0e1f1, #00d9ff);
+        border-radius: 15px;
+        box-shadow: 0 0px 30px #243c7d; 
+  }
+  
+  
+  .card-content {
+    margin: 35px 45px 90px;
+    text-align:center;
+    font-weight: bold;
+    color: #fff;
+    
+   
+  }
+  
+  .name {
+    font-size:35pt;
+    text-shadow: 0 1px 30px #3d65d2;
+    margin: 15px;
+    
+  }
+  
+  .description {
+    font-size:23pt;
+    font-weight: normal;
+    margin-bottom: 45px;
+    
+  }
+  
+  .contact-btn {
+    background-color:rgba(255, 255, 255, 0.4);
+    border: solid 5px #fff;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 20pt;
+    color:#fff;
+    padding:15px;
+    margin-top: 45px;
+   
+  }
+  
+  .contact-btn:hover {
+    padding:15px;
+    font-size: 20pt;
+    background-color:#fff;
+    color:#aec8ff;
+  }
+  
+  
+
+.floating-element {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #ffeb3b, #ff5722);
+  border-radius: 50%;
+  opacity: 0.8;
+  z-index: 10;
+  margin: 10px;
+  animation: move 3s infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}

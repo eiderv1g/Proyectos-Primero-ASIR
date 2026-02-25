@@ -1,0 +1,53 @@
+@keyframes animatedBackground {
+  from { background-position: 3000% 0; }
+  to { background-position: 0 0; }
+}
+
+body {
+  background-image: url("media/fondo.jpg");
+  background-repeat: repeat;
+  animation: animatedBackground 40s linear infinite;
+  margin: 0;
+}
+
+button {
+  background-color: #FFCCFF;
+  border: 5px solid #1C1C1C;
+  border-radius: 5px;
+  color: #1C1C1C;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#propiedades {
+  font-size: 30px;
+  color: #FFCCFF;
+  font-weight: 900;
+  text-align: center;
+}
+
+#botones,
+#cambiarpiloto {
+  text-align: center;
+}
+
+#cambiarpiloto {
+  margin-top: 15%;
+}
+
+input {
+  width: 220px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #6666FF;
+}
+
+#nyancat {
+  position: absolute;
+  top: 320px;
+  left: 50px;
+}

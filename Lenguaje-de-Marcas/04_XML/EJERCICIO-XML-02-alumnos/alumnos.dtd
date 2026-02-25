@@ -1,0 +1,4 @@
+
+    <!ELEMENT clase (alumno+)> <!-- el + es porque hay varios alumnos -->
+    <!ELEMENT alumno (nombre)> 
+    <!ELEMENT nombre (#PCDATA)> <!-- el elemento nombre contiene texto -->

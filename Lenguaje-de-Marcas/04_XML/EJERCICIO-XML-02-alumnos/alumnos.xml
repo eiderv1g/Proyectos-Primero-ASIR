@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clase SYSTEM "alumnos.dtd">
+
+<clase>
+    <alumno>
+        <nombre>Mafalda</nombre>
+    </alumno>
+    <alumno>
+        <nombre>Jaimito</nombre>
+    </alumno>
+    <alumno>
+        <nombre>Susanita</nombre>
+    </alumno>
+</clase>

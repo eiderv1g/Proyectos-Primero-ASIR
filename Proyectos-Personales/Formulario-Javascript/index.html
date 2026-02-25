@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario dinámico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="todo">
+    <h1>Nuevo contacto</h1>
+
+    <form id="contacto-form">
+        <!-- NOMBRE -->
+        <div id="todo-nom">
+            <div id="grupo-nom">
+                <input type="text" id="nomape" placeholder="Nombre y Apellido" class="form-control">
+                <button type="button" class="sep">&lt;&gt;</button>
+            </div>
+        </div>
+
+        <!-- TELÉFONO -->
+        <div id="todo-tel">
+            <div class="grupo grupo-tel">
+                <input type="text" placeholder="Teléfono" class="form-control">
+                <select>
+                    <option value="m">Móvil</option>
+                    <option value="c">Casa</option>
+                    <option value="t">Trabajo</option>
+                    <option value="o">Otro</option>
+                </select>
+                <button type="button" class="mas mas-t">+ tel</button>
+            </div>
+        </div>
+
+        <!-- EMAIL -->
+        <div id="todo-mail">
+            <div class="grupo grupo-mail">
+                <input type="email" placeholder="E-mail" class="form-control">
+                <select>
+                    <option value="c">Casa</option>
+                    <option value="t">Trabajo</option>
+                    <option value="o">Otro</option>
+                </select>
+                <button type="button" class="mas mas-e">+ mail</button>
+            </div>
+        </div>
+
+        <!-- DIRECCIÓN -->
+        <div id="todo-dir">
+            <div class="grupo grupo-dir">
+                <input type="text" placeholder="Dirección" class="form-control">
+                <select>
+                    <option value="c">Casa</option>
+                    <option value="t">Trabajo</option>
+                    <option value="o">Otro</option>
+                </select>
+                <button type="button" class="mas mas-d">+ dir</button>
+            </div>
+        </div>
+
+        <!-- CAMPOS DINÁMICOS -->
+        <div id="campos"></div>
+
+        <h3>Añadir otro campo</h3>
+        <select id="nuevo">
+            <option value="n">Notas</option>
+            <option value="w">Sitio web</option>
+            <option value="e">Evento</option>
+        </select>
+        <button type="button" id="otro">Añadir</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

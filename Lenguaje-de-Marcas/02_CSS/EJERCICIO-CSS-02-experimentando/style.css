@@ -1,0 +1,22 @@
+header{
+    background-color: blue;
+    color: aliceblue;
+    padding: 1em;
+
+    h1 {
+        background-color:blueviolet; 
+        padding: 0.5em;
+        text-align: center;
+        border-width: 8px;
+        border-color: rgb(255, 0, 221);
+        border-style: double ;
+        border-radius: 10px; 
+
+
+  
+    }
+
+    p{
+        background-color:aquamarine;
+    }
+}
