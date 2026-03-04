@@ -2,16 +2,19 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
     <html>
-        <head>
-            <title>Lista de Frutas</title>
-        </head>
         <body>
-            <h2>Lista de Frutas</h2>
-            <ul>
-                <xsl:for-each select="frutas/fruta">
-                    <li><xsl:value-of select="."/></li>
-                </xsl:for-each>
-            </ul>
+           <table border="1">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                </tr>
+            <xsl:for-each select="productos/producto">
+                <tr>
+                    <td><xsl:value-of select="."/></td>
+                    <td><xsl:value-of select="@precio"/></td>
+                </tr>
+            </xsl:for-each>
+           </table>
         </body>
     </html>
 </xsl:template>
