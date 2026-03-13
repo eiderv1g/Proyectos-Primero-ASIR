@@ -1,0 +1,3 @@
+# Proyectos de Primero de ASIR
+** ¡Muy buenas compis!**
+En este repositorio iré subiendo prácticas y apuntes varios. Vamos al lío...
