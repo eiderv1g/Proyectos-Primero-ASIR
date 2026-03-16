@@ -77,28 +77,20 @@ un buen flujo de aire, | 47,13€ |
 | 1 | Socket o zócalo de la CPU |
 | --- | --- |
 | 2 | Ranuras o slots para la memoria |
-| 
-3 | Conector de alimentación ATX de la propia placa (24 pines) |
+| 3 | Conector de alimentación ATX de la propia placa (24 pines) |
 | 4 | Conector IDE (para discos duros) |
-| 
-5 | Conectores SATA? (No lo veo muy bien) |
+| 5 | Conectores SATA? (No lo veo muy bien) |
 | 6 | Chipset (SouthBridge) |
 | 7 | Conectores SATA |
 | 8 | Batería CMOS |
-| 
-9 | Conectores para el panel central de la torre (botones de power, reset, leds…) |
-| 
-10 | Conector IDE/FDD, que puede servir para dispositivos antiguos |
+| 9 | Conectores para el panel central de la torre (botones de power, reset, leds…) |
+| 10 | Conector IDE/FDD, que puede servir para dispositivos antiguos |
 | 11 | Conector USB interno |
 | 12 | Ranuras PCI tipo legacy, de las antiguas |
 | 13 | Ranura PCI Express x16, para la tarjeta gráfica |
-| 
-14 | Ranura PCI Express x1, para tarjetas de expansión más modernas |
-| 
-15 | Conexiones USB soldados directamente en la placa madre. Para periféricos externos |
-| 
-16 | Puerto de red, para conectarnos a la red local/internet |
-| 
-17 | Conector ATX de alimentación de la CPU (4 pines) |
+| 14 | Ranura PCI Express x1, para tarjetas de expansión más modernas |
+| 15 | Conexiones USB soldados directamente en la placa madre. Para periféricos externos |
+| 16 | Puerto de red, para conectarnos a la red local/internet |
+| 17 | Conector ATX de alimentación de la CPU (4 pines) |
 
 ---
