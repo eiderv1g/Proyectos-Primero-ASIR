@@ -75,7 +75,6 @@ un buen flujo de aire, | 47,13€ |
 ![image.png](image%202.png)
 
 | 1 | Socket o zócalo de la CPU |
-| --- | --- |
 | 2 | Ranuras o slots para la memoria |
 | 3 | Conector de alimentación ATX de la propia placa (24 pines) |
 | 4 | Conector IDE (para discos duros) |
