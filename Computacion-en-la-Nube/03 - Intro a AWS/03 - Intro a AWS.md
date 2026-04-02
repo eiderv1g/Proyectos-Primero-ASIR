@@ -2,7 +2,7 @@
 
 # 1. INTRODUCCIÓN AWS
 
-![image.png](03%20-%20Intro%20a%20AWS/image.png)
+![image.png](image.png)
 
 **AWS (Amazon Web Services)** es una plataforma de **computación en la nube** que ofrece servicios como almacenamiento, servidores, bases de datos, inteligencia artificial y más, a través de internet bajo un modelo de pago por uso. Sus principales características son:
 
@@ -26,7 +26,7 @@ A día de hoy, AWS es una de las plataformas más usadas por empresas, startups 
 
 # 3. AWS: LÍDER MUNDIAL
 
-![image.png](03%20-%20Intro%20a%20AWS/image%201.png)
+![image.png](image%201.png)
 
 - En la actualidad, AWS mantiene **la mayor cuota de mercado** en cloud computing, por encima de competidores como Microsoft Azure y Google Cloud.
 - **AWS fue pionero** en el sector de cloud, lo cual le dio ventaja frente a otros proveedores.
@@ -68,7 +68,7 @@ Una AZ (Zona de Disponibilidad) es un centro de datos (o conjunto) dentro de una
 
 # 5. EJEMPLO DE ARQUITECTURA BÁSICA EN AWS
 
-![image.png](03%20-%20Intro%20a%20AWS/image%202.png)
+![image.png](image%202.png)
 
 ### Usuarios
 
