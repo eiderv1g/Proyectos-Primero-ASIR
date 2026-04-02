@@ -2,7 +2,7 @@
 
 # 0. ESTRUCTURA DE CUALQUIER DESARROLLO WEB
 
-![image.png](02%20-%20Fundamentos%20de%20la%20computaci%C3%B3n%20en%20la%20nube/image.png)
+![image.png](image.png)
 
 - **Cliente (browser):** el usuario envía una petición y recibe la respuesta.
 - **Front-end (presentación):** muestra la información (interfaz).
@@ -43,7 +43,7 @@ La computación en la nube es un modelo que permite acceder a recursos tecnológ
 
 Los modelos de servicio en la nube definen **qué parte de la infraestructura gestiona el proveedor y qué parte controla el usuario**. Van desde servicios totalmente gestionados (*menos control, más facilidad*) hasta servicios más configurables (*más control, más responsabilidad*).
 
-![image.png](02%20-%20Fundamentos%20de%20la%20computaci%C3%B3n%20en%20la%20nube/image%201.png)
+![image.png](image%201.png)
 
 ### SaaS (Software as a Service)
 
