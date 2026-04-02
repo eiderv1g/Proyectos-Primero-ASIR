@@ -2,7 +2,7 @@
 
 # 1. MODELO DE RESPONSABILIDAD COMPARTIDA
 
-![image.png](05%20-%20Seguridad%20en%20AWS%20e%20IAM/image.png)
+![image.png](image.png)
 
 El modelo de responsabilidad compartida de AWS define qué parte de la seguridad gestiona AWS y qué parte gestiona el cliente.
 
@@ -37,7 +37,7 @@ El cliente es responsable de lo que ejecuta dentro de AWS:
 
 ## 2.1 EJEMPLOS VISTOS EN CLASE
 
-![image.png](05%20-%20Seguridad%20en%20AWS%20e%20IAM/image%201.png)
+![image.png](image%201.png)
 
 1. **Cliente** – Gestiona el sistema operativo en Amazon EC2.
 2. **AWS** – Se encarga de la seguridad física de los centros de datos.
@@ -89,7 +89,7 @@ El cliente es responsable de lo que ejecuta dentro de AWS:
 
 # 3. IAM (IDENTITY AND ACCESS MANAGEMENT)
 
-![image.png](05%20-%20Seguridad%20en%20AWS%20e%20IAM/image%202.png)
+![image.png](image%202.png)
 
 Se trata de un servicio de AWS que permite controlar quién puede acceder a los recursos y qué puede hacer.  Se trata de una característica de cuenta de AWS gratuita. Sirve para:
 

@@ -23,7 +23,7 @@ La configuración **Multi-AZ** en Amazon RDS está pensada para **evitar caídas
 
 # 1. INTRO A AWS LAMBDA
 
-![image.png](19%20-%20AWS%20LAMBDA/image.png)
+![image.png](image.png)
 
 AWS Lambda es una opción de cómputo **sin servidor**. Pero, ¿Cómo funciona esta movida?
 

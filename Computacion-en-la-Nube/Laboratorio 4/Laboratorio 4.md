@@ -14,48 +14,48 @@ Al final de este laboratorio, podrá hacer lo siguiente:
 
 ## #1. CREAR NUEVO VOLUMEN EBS
 
-![image.png](Laboratorio%204/image.png)
+![image.png](image.png)
 
 ---
 
 ## #2. ADJUNTAR VOLUMEN A UNA INSTANCIA
 
-![image.png](Laboratorio%204/image%201.png)
+![image.png](image%201.png)
 
 ---
 
 ## #3. CONECTARSE A LA INSTANCIA DE AMAZON EC2
 
-![image.png](Laboratorio%204/image%202.png)
+![image.png](image%202.png)
 
 ---
 
 ## #4. CREAR Y CONFIGURAR EL SISTEMA DE ARCHIVOS
 
-![image.png](Laboratorio%204/image%203.png)
+![image.png](image%203.png)
 
 ---
 
 ## #5. CREAR UNA INSTANTÁNEA DE AMAZON EBS
 
-![image.png](Laboratorio%204/image%204.png)
+![image.png](image%204.png)
 
-![image.png](Laboratorio%204/image%205.png)
+![image.png](image%205.png)
 
 ---
 
 ## #7. RESTAURAR LA INSTANTÁNEA DE AMAZON EBS
 
-![image.png](Laboratorio%204/image%206.png)
+![image.png](image%206.png)
 
-![image.png](Laboratorio%204/image%207.png)
+![image.png](image%207.png)
 
 ---
 
 ## #8. COMPLETAR Y ENVIAR
 
-![image.png](Laboratorio%204/image%208.png)
+![image.png](image%208.png)
 
-![image.png](Laboratorio%204/image%209.png)
+![image.png](image%209.png)
 
 Los pantallazos y el propio reporte demuestran que sí tengo bien hecha la práctica, pero a veces las notas en AWS van un poco pedo…

@@ -29,7 +29,7 @@ En esta clase aprenderé a conectarme por diferentes vías a mis instancias:
     - **Detalles avanzados** → no toco nada
 - Lanzamos instancia
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/4e4c929e-b1ef-4074-8d12-68d82560a198.png)
+![image.png](4e4c929e-b1ef-4074-8d12-68d82560a198.png)
 
 ---
 
@@ -37,13 +37,13 @@ En esta clase aprenderé a conectarme por diferentes vías a mis instancias:
 
 - Ahora quiero conectarme de alguna manera a mi nueva instancia. Para ello, necesito una dirección IP, concretamente la **IP pública:**
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image.png)
+![image.png](image.png)
 
 - Podemos conectarnos directamente desde la consola dándole a **conectar** y de esta forma accederemos a la instancia desde el propio navegador.
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%201.png)
+![image.png](image%201.png)
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%202.png)
+![image.png](image%202.png)
 
 - Sin embargo, lo normal no es conectarse por esta vía, sino vía terminal o vía SSH (PuTTY). **Voy a hacerlo vía PuTTY.** Para ello voy a necesitar:
     - Dirección IP (*ya la tenemos*) → `3.229.118.7`
@@ -55,11 +55,11 @@ En esta clase aprenderé a conectarme por diferentes vías a mis instancias:
     3. Le damos a SSHKey → descargo el archivo `.ppk`
 - Sigo estas instrucciones: https://labs.vocareum.com/web/4526203/5102333.0/ASNLIB/public/docs/lang/en-us/README.html?vockey=4a2d725e2384b64593f62d4804dd3ec48452dfe073f669a4e153ae402d67877b#sshwindows
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%203.png)
+![image.png](image%203.png)
 
 - Me logueo con el usuario → **¡EXITO!**
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%204.png)
+![image.png](image%204.png)
 
 ---
 
@@ -84,26 +84,26 @@ En esta clase aprenderé a conectarme por diferentes vías a mis instancias:
 - Para conectarnos vía RDP hay que tener un software específico para hacerlo. Este nos sirve:
 https://support.microsoft.com/es-es/windows/c%C3%B3mo-usar-escritorio-remoto-5fe128d5-8fb1-7a23-3b8a-41e636865e8c
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%205.png)
+![image.png](image%205.png)
 
 - Ahora… ¿Dónde están las claves para acceder a nuestro windows server? Nos vamos a:
 **Instancias → Acciones → Seguridad → Obtener la contraseña de Windows**
 
-![Vale pero… ¿Qué pongo aquí?](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%206.png)
+![Vale pero… ¿Qué pongo aquí?](image%206.png)
 
 Vale pero… ¿Qué pongo aquí?
 
 - En ese recuadro tenemos que poner nuestra clave privada (En AWS details) (copy/paste) → **Descifrar contraseña**
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%207.png)
+![image.png](image%207.png)
 
 - Nos aparecen las credenciales:
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%208.png)
+![image.png](image%208.png)
 
 - **¡ÉXITO!**
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%209.png)
+![image.png](image%209.png)
 
 ---
 
@@ -111,4 +111,4 @@ Vale pero… ¿Qué pongo aquí?
 
 Ahora, si detengo la instancia, al volver a iniciarla se le asignará una nueva ip pública y habrá que volver a buscarla en los detalles de la instancia para introducirla correctamente en PuTTY. **Para ahorrarnos esto,** podemos asignarle una **ip elástica**. , de manera que, cada vez que inicie una máquina, esta **tendrá siempre la misma ip.** 
 
-![image.png](12%20-%20Conexi%C3%B3n%20SSH%20Linux%20Server%20Conexi%C3%B3n%20RDP%20Window/image%2010.png)
+![image.png](image%2010.png)

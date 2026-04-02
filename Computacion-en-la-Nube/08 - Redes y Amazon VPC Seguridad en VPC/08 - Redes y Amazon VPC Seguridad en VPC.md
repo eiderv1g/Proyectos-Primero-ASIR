@@ -2,7 +2,7 @@
 
 # 1. EXPLICACIÓN DE ESTE CROQUIS
 
-![image.png](08%20-%20Redes%20y%20Amazon%20VPC%20Seguridad%20en%20VPC/image.png)
+![image.png](image.png)
 
 En este diagrama estamos viendo una red en AWS donde hay:
 

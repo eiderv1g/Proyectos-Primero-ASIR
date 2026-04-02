@@ -16,48 +16,48 @@ Después de completar este laboratorio, debería poder realizar lo siguiente:
 
 ## #1. LANZAR UNA INSTANCIA DE AMAZON EC2
 
-![image.png](Laboratorio%203/image.png)
+![image.png](image.png)
 
 ---
 
 ## #2. SUPERVISAR LA INSTANCIA
 
-![image.png](Laboratorio%203/image%201.png)
+![image.png](image%201.png)
 
-![image.png](Laboratorio%203/image%202.png)
+![image.png](image%202.png)
 
 ---
 
 ## #3. ACTUALIZAR GRUPO DE SEGURIDAD Y ACCEDER AL SERVIDOR WEB
 
-![image.png](Laboratorio%203/image%203.png)
+![image.png](image%203.png)
 
 ---
 
 ## #4. MODIFICAR TAMAÑO DE LA INSTANCIA, TIPO Y VOLUMEN EBS
 
-![image.png](Laboratorio%203/image%204.png)
+![image.png](image%204.png)
 
-![image.png](Laboratorio%203/image%205.png)
+![image.png](image%205.png)
 
 ---
 
 ## #5. EXPLORAR LÍMITES DE EC2
 
-![image.png](Laboratorio%203/image%206.png)
+![image.png](image%206.png)
 
 ---
 
 ## #6. PROBAR LA PROTECCIÓN DE DETENCIÓN
 
-![image.png](Laboratorio%203/image%207.png)
+![image.png](image%207.png)
 
-![image.png](Laboratorio%203/image%208.png)
+![image.png](image%208.png)
 
 ---
 
 ## #7. COMPLETAR Y ENVIAR
 
-![image.png](Laboratorio%203/image%209.png)
+![image.png](image%209.png)
 
-![image.png](Laboratorio%203/image%2010.png)
+![image.png](image%2010.png)

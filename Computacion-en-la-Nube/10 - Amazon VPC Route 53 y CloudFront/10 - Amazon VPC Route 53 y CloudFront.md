@@ -24,7 +24,7 @@ Es normal para páginas web públicas, pero puede ser peligroso si:
 
 # 1. AWS VPC: ROUTE 53
 
-![image.png](10%20-%20Amazon%20VPC%20Route%2053%20y%20CloudFront/image.png)
+![image.png](image.png)
 
 Amazon Route 53 es un servicio que funciona como un **DNS (Sistema de Nombres de Dominio)**. Traduce nombres como `www.ejemplo.com` en direcciones IP como `192.0.2.1`.
 
@@ -44,7 +44,7 @@ Amazon Route 53 es un servicio que funciona como un **DNS (Sistema de Nombres de
 - Comprobar el estado de recursos (health checks)
 - Distribuir tráfico (routing)
 
-![Todas las opciones de AWS Route 53](10%20-%20Amazon%20VPC%20Route%2053%20y%20CloudFront/image%201.png)
+![Todas las opciones de AWS Route 53](image%201.png)
 
 Todas las opciones de AWS Route 53
 
@@ -64,7 +64,7 @@ Todas las opciones de AWS Route 53
 
 ## 1.2 CASO PRÁCTICO
 
-![image.png](10%20-%20Amazon%20VPC%20Route%2053%20y%20CloudFront/image%202.png)
+![image.png](image%202.png)
 
 Tengo una web (**example.com**) desplegada en dos regiones distintas de AWS:
 
@@ -96,7 +96,7 @@ Muestra:
 
 *Normalmente este comando no viene preinstalado por defecto en el cmd. Puedes usar `nslookup` en su lugar, que da una respuesta más simple:*
 
-![image.png](10%20-%20Amazon%20VPC%20Route%2053%20y%20CloudFront/image%203.png)
+![image.png](image%203.png)
 
 ---
 
@@ -130,16 +130,16 @@ Amazon CloudFront es un servicio de AWS que funciona como una **CDN (Content Del
 
 1. Digamos que tengo una imagen subida en Amazon S3 (que viene a ser como una especie de servicio de almacenamiento)
 
-![image.png](10%20-%20Amazon%20VPC%20Route%2053%20y%20CloudFront/image%204.png)
+![image.png](image%204.png)
 
 1. Quiero desplegar esa imagen en un cd. Para ello voy a Amazon Cloudfront:
 Crear una distribución → Free → Le pongo nombre → Origen: Amazon S3 > Selecciono la imagen → Creo
 
-![image.png](10%20-%20Amazon%20VPC%20Route%2053%20y%20CloudFront/image%205.png)
+![image.png](image%205.png)
 
 1. Si creo un html e inserto la URL de la distribución que me acabo de crear con un .png y **lo abro en un navegador**, veremos la imagen. **Es una imagen obtenida de manera dinámica, no local**
 
-![image.png](10%20-%20Amazon%20VPC%20Route%2053%20y%20CloudFront/image%206.png)
+![image.png](image%206.png)
 
 ---
 

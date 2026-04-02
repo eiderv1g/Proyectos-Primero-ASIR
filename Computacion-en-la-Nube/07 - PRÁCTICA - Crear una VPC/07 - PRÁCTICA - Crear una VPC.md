@@ -42,13 +42,13 @@ Asignaturas → AWS Academy Learner Lab → Contenidos → Laboratorio para el a
 
 Me aparece la página de inicio de la consola. **Busco el servicio de VPC:**
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image.png)
+![image.png](image.png)
 
 ---
 
 A continuación veo que en mi región tengo 1 VPC (Redes Privadas Virtuales) y 6 Subredes:
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%201.png)
+![image.png](image%201.png)
 
 ---
 
@@ -67,17 +67,17 @@ A continuación veo que en mi región tengo 1 VPC (Redes Privadas Virtuales) y 6
     - **Pública** (con acceso a Internet)
     - **Privada** (sin acceso directo a Internet)
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%202.png)
+![image.png](image%202.png)
 
 ---
 
 Voy a **Subredes** para ver las 6 subredes disponibles
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%203.png)
+![image.png](image%203.png)
 
 Y en **VPC**:
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%204.png)
+![image.png](image%204.png)
 
 *Al abrir una nueva cuenta, Amazon te crea automáticamente una VPC*
 
@@ -92,7 +92,7 @@ Y en **VPC**:
 - También admite IPv6.
 - Las subredes no pueden superponerse.
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%205.png)
+![image.png](image%205.png)
 
 Entonces vamos a probar a crear una VPC…
 
@@ -101,11 +101,11 @@ Entonces vamos a probar a crear una VPC…
 1. Crear VPC
 2. Configuración inicial:
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%206.png)
+![image.png](image%206.png)
 
 1. Personalización de bloques de CIDR de subredes para que sea más simple:
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%207.png)
+![image.png](image%207.png)
 
 ---
 
@@ -116,15 +116,15 @@ Lo siguiente que vamos a necesitar es una **tabla de enrutamiento y rutas**
     - Una para la subred pública
     - Dos para las subredes privadas
     
-    ![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%208.png)
+    ![image.png](image%208.png)
     
 
 Le damos a **crear VPC y empieza a hacer sus cosas**
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%209.png)
+![image.png](image%209.png)
 
 ---
 
 **¡YA LA TENGO!**
 
-![image.png](07%20-%20PR%C3%81CTICA%20-%20Crear%20una%20VPC/image%2010.png)
+![image.png](image%2010.png)

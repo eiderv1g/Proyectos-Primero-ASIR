@@ -2,7 +2,7 @@
 
 # 1. AMAZON S3 (AMAZON SIMPLE STORAGE SERVICE)
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image.png)
+![image.png](image.png)
 
 **Amazon S3** es un servicio de almacenamiento en la nube de AWS que guarda datos como **objetos dentro de contenedores llamados buckets**. Es altamente escalable, seguro y diseñado para almacenar cualquier tipo de archivo
 
@@ -66,7 +66,7 @@ La segunda es la más usada actualmente
 
 ## 1.5 REDUNDANCIA DE LOS DATOS
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%201.png)
+![image.png](image%201.png)
 
 Los archivos se replican automáticamente, se almacenan en **múltiples instalaciones (AZs)** dentro de una región y si una falla, los datos siguen disponibles
 
@@ -99,7 +99,7 @@ El modelo de pago es de **pago por uso**:
 
 https://tinyurl.com/MUP5DM4F
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%202.png)
+![image.png](image%202.png)
 
 ---
 
@@ -109,7 +109,7 @@ https://tinyurl.com/MUP5DM4F
 - Vamos a crear un bucket → Buckets / Crear bucket → Le pongo el nombre `prueba-bucket-mopc`dejando todas las opciones de configuración por defecto.
 - Bucket creado:
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%203.png)
+![image.png](image%203.png)
 
 ---
 
@@ -117,25 +117,25 @@ https://tinyurl.com/MUP5DM4F
 
 - Arrastrándolos, cargo los ficheros del drive en el bucket:
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%204.png)
+![image.png](image%204.png)
 
 - Podemos bichear y ver los detalles de los archivos (quién es el propietario, ver la URL del objeto…)
 - ¡Vamos a pulsar en la URL del objeto! → ACCESO DENEGADO. Vamos a cambiar esto…
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%205.png)
+![image.png](image%205.png)
 
 - Selecciono el bucket y voy a la pestaña de permisos → En la pestaña de **Bloquear acceso público**, desactivo esta opción para que todo el mundo pueda ver los ficheros:
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%206.png)
+![image.png](image%206.png)
 
 - También tengo que establecer una política para que se pueda acceder a estos objetos: entramos en la política del Bucket.
 - Abrimos el fichero JSON de Ignacio, copiamos su contenido y lo pegamos en la política:
 - OJO, acuérdate de cambiar el “Resource” del código por el nombre de tu bucket (**ARN del Bucket:**
 
-![image.png](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%207.png)
+![image.png](image%207.png)
 
 - Ahora, si abro la URL de un objeto de nuestro Bucket, podremos visualizarlo:
 
-![¡ÉXITO!](16%20-%20Almacenamiento%20-%20Amazon%20S3%20Pr%C3%A1ctica%20S3/image%208.png)
+![¡ÉXITO!](image%208.png)
 
 ¡ÉXITO!

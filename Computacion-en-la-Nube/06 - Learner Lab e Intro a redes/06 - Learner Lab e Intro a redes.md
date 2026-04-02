@@ -10,7 +10,7 @@ Asignaturas → AWS Academy Learner Lab → Contenidos → Laboratorio para el a
 
 # 2. REDES
 
-![image.png](06%20-%20Learner%20Lab%20e%20Intro%20a%20redes/image.png)
+![image.png](image.png)
 
 ## 2.1 QUÉ ES UNA RED
 

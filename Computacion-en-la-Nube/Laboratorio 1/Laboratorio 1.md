@@ -14,13 +14,13 @@
 
 ## #1. ANALIZAR LOS USUARIOS Y LOS GRUPOS
 
-![image.png](Laboratorio%201/image.png)
+![image.png](image.png)
 
 ---
 
 ## #2. AGREGAR USUARIOS A LOS GRUPOS
 
-![image.png](Laboratorio%201/image%201.png)
+![image.png](image%201.png)
 
 ---
 
@@ -32,6 +32,6 @@
 
 ## #4. COMPLETAR Y ENVIAR
 
-![image.png](Laboratorio%201/image%202.png)
+![image.png](image%202.png)
 
-![image.png](Laboratorio%201/image%203.png)
+![image.png](image%203.png)

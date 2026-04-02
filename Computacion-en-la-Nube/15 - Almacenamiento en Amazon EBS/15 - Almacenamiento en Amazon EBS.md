@@ -69,4 +69,4 @@ Los volúmenes de Amazon EBS de AWS incluyen SSD de uso general (equilibrio), SS
 
 **→ Academy Cloud Foundations / Módulo 7 / Ejercicio de Laboratorio 4 - Trabajo con EBS**
 
-![image.png](15%20-%20Almacenamiento%20en%20Amazon%20EBS/image.png)
+![image.png](image.png)

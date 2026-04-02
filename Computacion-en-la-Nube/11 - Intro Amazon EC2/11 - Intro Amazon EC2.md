@@ -2,7 +2,7 @@
 
 # 1. AMAZON EC2 (ELASTIC COMPUTE CLOUD)
 
-![image.png](11%20-%20Intro%20Amazon%20EC2/image.png)
+![image.png](image.png)
 
 **Servicio de computación en la nube de AWS** que permite crear y ejecutar máquinas virtuales (**instancias**) bajo demanda. Ofrece escalabilidad, pago por uso y control total del sistema operativo y recursos (CPU, memoria, almacenamiento y red).
 
@@ -30,7 +30,7 @@ En resumen, elastic significa flexible y escalable bajo demanda.
 
 ## 1.1 INSTANCIAS
 
-![image.png](11%20-%20Intro%20Amazon%20EC2/image%201.png)
+![image.png](image%201.png)
 
 Una instancia es un servidor virtual que puedes crear, configurar y usar para ejecutar aplicaciones. En Amazon EC2, las instancias son máquinas virtuales que se ejecutan en la nube.
 

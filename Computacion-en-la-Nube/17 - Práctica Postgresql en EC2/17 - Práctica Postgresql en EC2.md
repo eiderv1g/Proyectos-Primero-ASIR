@@ -46,7 +46,7 @@ En amazon tenemos servicios no administrados y servicios administrados:
 
 ### BASES DE DATOS RELACIONALES
 
-![image.png](17%20-%20Pr%C3%A1ctica%20Postgresql%20en%20EC2/image.png)
+![image.png](image.png)
 
 Una **base de datos relacional** es un tipo de base de datos que **organiza la información en tablas** (filas y columnas) y **relaciona esas tablas entre sí mediante claves**.
 
@@ -99,7 +99,7 @@ https://tinyurl.com/545karvk
 
 ### 1. CREO UNA INSTANCIA UBUNTU
 
-![image.png](17%20-%20Pr%C3%A1ctica%20Postgresql%20en%20EC2/image%201.png)
+![image.png](image%201.png)
 
 - **Nombre** → basedatos_mopc
 - **AMI** → Ubuntu
@@ -142,7 +142,7 @@ psql -h localhost -U alumno -d fp_prometeo #me conecto con las credenciales
 
 - ¡Estoy dentro!
 
-![image.png](17%20-%20Pr%C3%A1ctica%20Postgresql%20en%20EC2/image%202.png)
+![image.png](image%202.png)
 
 ### 3. PROBAR BS
 
@@ -166,6 +166,6 @@ SELECT * FROM visitas ORDER BY id;
 
 - Yo he creado una mini-base de datos de montañas:
 
-![image.png](17%20-%20Pr%C3%A1ctica%20Postgresql%20en%20EC2/image%203.png)
+![image.png](image%203.png)
 
 ---

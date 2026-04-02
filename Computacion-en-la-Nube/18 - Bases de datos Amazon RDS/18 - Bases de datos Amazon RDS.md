@@ -4,7 +4,7 @@
 
 ## 1.1 INSTANCIAS EN LAS BD DE AMAZON RDS
 
-![image.png](18%20-%20Bases%20de%20datos%20Amazon%20RDS/image.png)
+![image.png](image.png)
 
 El diagrama explica que cuando creas una base de datos en RDS, debes elegir **3 cosas principales**:
 

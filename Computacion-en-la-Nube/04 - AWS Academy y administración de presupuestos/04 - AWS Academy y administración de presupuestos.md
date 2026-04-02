@@ -8,7 +8,7 @@ Es un **programa educativo oficial de Amazon Web Services (AWS)** diseñado para
 
 ## 1.1  AWS Academy Cloud Foundations
 
-![image.png](04%20-%20AWS%20Academy%20y%20administraci%C3%B3n%20de%20presupuestos%20/image.png)
+![image.png](image.png)
 
 Usaremos este curso para trabajar durante la asignatura. Hay que entrar a través del enlace que ha mandado Ignacio a vuestro correo.
 
@@ -23,7 +23,7 @@ Es un curso **oficial de nivel inicial** que enseña:
 
 Me logueo y llego a una pantalla como esto:
 
-![image.png](04%20-%20AWS%20Academy%20y%20administraci%C3%B3n%20de%20presupuestos%20/image%201.png)
+![image.png](image%201.png)
 
 ---
 
@@ -31,7 +31,7 @@ Me logueo y llego a una pantalla como esto:
 
 https://docs.aws.amazon.com/
 
-![image.png](04%20-%20AWS%20Academy%20y%20administraci%C3%B3n%20de%20presupuestos%20/image%202.png)
+![image.png](image%202.png)
 
 **AWS Documentation** es la documentación oficial que proporciona instrucciones, ejemplos y referencias para usar los servicios de AWS. Incluye:
 
@@ -55,7 +55,7 @@ https://docs.aws.amazon.com/
 
 ## 3.2 Modelos de precios en AWS
 
-![image.png](04%20-%20AWS%20Academy%20y%20administraci%C3%B3n%20de%20presupuestos%20/image%203.png)
+![image.png](image%203.png)
 
 | Modelo | Compromiso | Pago inicial | Flexibilidad | Precio | Uso recomendado |
 | --- | --- | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ Existen varios tipos:
 
 ## 3.4 Calculadora de precios de AWS
 
-![image.png](04%20-%20AWS%20Academy%20y%20administraci%C3%B3n%20de%20presupuestos%20/image%204.png)
+![image.png](image%204.png)
 
 https://calculator.aws/#/
 
