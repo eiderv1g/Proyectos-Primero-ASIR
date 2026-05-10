@@ -310,7 +310,7 @@ La **QoS (Quality of Service)** es un conjunto de técnicas que se utilizan en r
 
 En una red normal, todos los datos se tratan igual. Esto puede ser un problema cuando hay mucha carga, porque no es lo mismo descargar un archivo que hacer una videollamada. La QoS soluciona esto **decidiendo qué datos deben ir primero**.
 
-![image.png](IMG/IMG/image%207.png)
+![image.png](IMG/image%207.png)
 
 Cuando una red está saturada pueden aparecer varios problemas:
 
