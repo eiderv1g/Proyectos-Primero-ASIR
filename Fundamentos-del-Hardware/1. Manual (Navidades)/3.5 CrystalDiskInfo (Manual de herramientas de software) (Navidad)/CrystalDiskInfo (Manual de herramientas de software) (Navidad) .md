@@ -10,7 +10,7 @@ Enlace de descarga: [https://crystalmark.info/en/software/crystaldiskinfo/](http
 
 ![image.png](image.png)
 
-**CrystalDiskInfo** es un programa gratuito de diagnóstico que permite **monitorizar el estado de salud y rendimiento de discos duros (HDD) y unidades de estado sólido (SSD)** mediante la lectura de datos **S.M.A.R.T.**.
+**CrystalDiskInfo** es un software gratuito de diagnóstico que permite **monitorizar el estado de salud y rendimiento de discos duros (HDD) y unidades de estado sólido (SSD)** mediante la lectura de datos **S.M.A.R.T.**.
 
 ---
 
