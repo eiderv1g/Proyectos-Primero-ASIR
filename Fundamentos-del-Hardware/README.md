@@ -5,5 +5,5 @@ Para ver los apuntes de un ejercicio práctico, pulsad en el archivo Markdown:
 
 *Ejemplo:*
 ```
-/ 4.Herramientas de Benchmarks (Navidad) / Herramientas de Benchmarks (Navidad).md
+/ 2.Herramientas de Benchmarks (Navidad) / Herramientas de Benchmarks (Navidad).md
 ```
