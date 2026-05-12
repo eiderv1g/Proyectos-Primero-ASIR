@@ -14,7 +14,7 @@ Es el componente principal de la computadora. Ejecuta instrucciones y realiza c�
 
 ## B) UNIDAD DE ALMACENAMIENTO
 
-Es un dispositivo físico que guarda y almacena datos en un ordenador y permite guardar y acceder a datos de manera rápida y eficiente. Lee datos, los procesa y los vuelve a almacenar. Tipos:
+La unidad de almacenamiento es un dispositivo físico que guarda y almacena datos en un ordenador y permite guardar y acceder a datos de manera rápida y eficiente. Lee datos, los procesa y los vuelve a almacenar. Tipos:
 
 - **HDD o Disco duro:** el de “toda la vida”. Son discos magnéticos. Ya se están quedando obsoletos, prácticamente ya no se usan en portátiles.
 - **Unidad SSD o Unidad de Estado Sólido:** es más rápido, silencioso y resistente.
